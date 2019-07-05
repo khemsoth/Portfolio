@@ -1,0 +1,41 @@
+section {
+  height: 100vh;
+}
+
+.header {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  box-shadow: .4rem 0 .3rem #111;
+}
+
+.content {
+  margin-left: 25%;
+  padding: 1rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  margin: auto;
+}
+
+#nav-list {
+  list-style-type: none;
+}
+
+#nav-list a li {
+  padding: .3rem;
+}
+
+#main {
+  text-align: center;
+  position: relative; 
+}
+
+#main h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
