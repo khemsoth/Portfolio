@@ -5,3 +5,7 @@ $('nav').find('a').click(function(event) {
     scrollTop:$(sec).offset().top
   });
 });
+
+$('#Ntl-Park-App').on('click', function() {
+  window.open('https://khemsoth.github.io/NationalParkApp/');
+})
