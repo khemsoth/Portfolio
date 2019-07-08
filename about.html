@@ -10,14 +10,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container-fluid">
   <div class="header">
     <div class="header-content">
       <h1 class="name">Keith Hemsoth</h1>
         <nav>
           <ul id="nav-list">
-           <a href="#about"><li>About</li></a>
-           <a href="#portfolio"><li>Portfolio</li></a>
-           <a href="#contact"><li>Contact</li></a>
+           <a href="#about" id='about-nav'><li>About</li></a>
+           <a href="#portfolio" id='port-nav'><li>Portfolio</li></a>
+           <a href="#contact" id='contact-nav'><li>Contact</li></a>
           </ul>
         </nav>
      </div>
@@ -40,19 +41,31 @@
       <h2>Portfolio</h2>
       <hr>
       <br>
-    <a href="https://khemsoth.github.io/NationalParkApp/"><img src="./assets/images/hiking.jpg" alt="Man hiking on log" style="max-width:300px; max-height:300px"></a>
-    <a href="https://khemsoth.github.io/Crystal-Collector/"><img src="./assets/images/crashCrystal.jpg" alt="Crash Bandicoot Crystal" style="max-width:300px; max-height:300px"></a>
-
-<div class="card mb-3" style="max-width: 540px;">
+<div class="card mb-3" style="max-width: 540px; max-height: 160px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="./assets/images/hiking.jpg" class="card-img rounded" alt="Man hiking on log">
+      <img src="./assets/images/hiking.jpg" class="card-img rounded img-fluid" alt="Man hiking on log">
     </div>
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">National Park App</h5>
         <p class="card-text">Find the next adventure near you!</p>
         <button type="button" class="btn btn-outline-success" id="Ntl-Park-App">Launch</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px; max-height: 160px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="./assets/images/crashCrystal.jpg" class="card-img rounded img-fluid" alt="Crash Bandicoot crystal">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Crystal Collector Game</h5>
+        <p class="card-text">Collect the right amount of crystals!</p>
+        <button type="button" class="btn btn-outline-success" id="Crystal-Collector">Launch</button>
       </div>
     </div>
   </div>
@@ -79,8 +92,7 @@
     </form>
     </div>
 </div>
-
-
+</div>
 
   <script src="./assets/js/index.js"></script>
 

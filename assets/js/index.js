@@ -8,4 +8,8 @@ $('nav').find('a').click(function(event) {
 
 $('#Ntl-Park-App').on('click', function() {
   window.open('https://khemsoth.github.io/NationalParkApp/');
-})
+});
+
+$('#Crystal-Collector').on('click', function() {
+  window.open('https://khemsoth.github.io/Crystal-Collector/');
+});

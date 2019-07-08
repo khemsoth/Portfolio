@@ -20,6 +20,11 @@ section {
   margin: auto;
 }
 
+.card-img {
+  max-height: 158px;
+  height: 100%;
+}
+
 #nav-list {
   list-style-type: none;
 }
