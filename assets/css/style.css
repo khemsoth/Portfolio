@@ -33,11 +33,6 @@ section {
   padding: .3rem;
 }
 
-#main {
-  text-align: center;
-  position: relative; 
-}
-
 #main h2 {
   position: absolute;
   top: 50%;

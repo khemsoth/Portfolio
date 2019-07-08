@@ -6,6 +6,8 @@ $('nav').find('a').click(function(event) {
   });
 });
 
+
+//  Opening apps in new window
 $('#Ntl-Park-App').on('click', function() {
   window.open('https://khemsoth.github.io/NationalParkApp/');
 });
