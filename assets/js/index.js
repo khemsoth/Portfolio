@@ -15,3 +15,7 @@ $('#Ntl-Park-App').on('click', function() {
 $('#Crystal-Collector').on('click', function() {
   window.open('https://khemsoth.github.io/Crystal-Collector/');
 });
+
+$('#GoT').on('click', function() {
+  window.open('https://gotswag.herokuapp.com/');
+});
