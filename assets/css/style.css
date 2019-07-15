@@ -25,6 +25,10 @@ section {
   height: 100%;
 }
 
+.fa {
+  filter: grayscale(100%);
+}
+
 #nav-list {
   list-style-type: none;
 }
