@@ -12,8 +12,8 @@ $('#Ntl-Park-App').on('click', function() {
   window.open('https://khemsoth.github.io/NationalParkApp/');
 });
 
-$('#Crystal-Collector').on('click', function() {
-  window.open('https://khemsoth.github.io/Crystal-Collector/');
+$('#morning-coffee-marketing').on('click', function() {
+  window.open('https://morningcoffeemarketing.herokuapp.com/');
 });
 
 $('#GoT').on('click', function() {
