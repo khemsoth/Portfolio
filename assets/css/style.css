@@ -93,3 +93,80 @@ hr {
   color: #604450;
 }
 
+@media only screen and (max-width: 600px) {
+
+  nav, .fa {
+    
+  }
+
+  .container-fluid {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+      'header'
+      'title'
+      'about'
+      'portfolio'
+      'contact';
+  }
+
+
+  .header {
+    height: auto;
+    width: 100%;
+    position: static;
+    grid-area: header;
+  }
+
+  .header-content {
+    padding: 1rem;
+    display: grid; 
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-template-areas: 
+      'pic .'
+      'name menu';
+  }
+
+  .content {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .text-wrap {
+    text-align: center;
+    position: initial;
+  }
+
+  .header-content > .title {
+    grid-area: name;
+  }
+
+  .rounded-circle {
+    grid-area: pic;
+    height: auto;
+  }
+
+  #nav-list {
+    grid-area: menu;
+  }
+
+  #main {
+    grid-area: title;
+  }
+
+  #about {
+    grid-area: about;
+  }
+
+  #portfolio {
+    grid-area: portfolio;
+  }
+
+  #contact {
+    grid-area: contact;
+  }
+
+}
