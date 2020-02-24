@@ -93,22 +93,19 @@ hr {
   color: #604450;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
   nav {
     align-self: center;
   }
 
+  section > #portfolio {
+    height: auto;
+  }
+
   .container-fluid {
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 100%;
-    grid-template-areas: 
-      'header'
-      'main'
-      'about'
-      'portfolio'
-      'contact';
+    display: flex;
+    flex-direction: column;
   }
 
 
@@ -116,6 +113,7 @@ hr {
     width: 100%;
     position: static;
     grid-area: header;
+    height: auto;
   }
 
   .header-content {
@@ -155,8 +153,54 @@ hr {
   }
 
   .text-wrap {
-    text-align: center;
-    position: initial;
+    position: relative;
+    left: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .port-title {
+    color: #604450;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card-img {
+    max-width: 100%;
+  } 
+
+  .card-text {
+    margin-bottom: 0;
+  }
+
+  .col-md-4 {
+    width: auto;
+  }
+
+  .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 49%;
+    height: 100%;
+  }
+
+  .no-gutters {
+    min-width: 90%;
   }
 
   #nav-list {
@@ -164,12 +208,19 @@ hr {
     flex-direction: row;
     align-items: center;
   }
+
+  #portfolio {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #contact {
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }
 
-@media only screen and (max-width: 900px) {
-
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 550px) {
 
 }
