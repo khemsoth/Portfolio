@@ -93,6 +93,10 @@ hr {
   color: #604450;
 }
 
+#morning-coffee-marketing, #Ntl-Park-App, #GoT {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
 
   nav {
@@ -165,7 +169,7 @@ hr {
   }
 
   .card {
-    width: 90%;
+    width: 95%;
     height: auto;
     align-self: center;
     display: flex;
@@ -219,8 +223,38 @@ hr {
     height: auto;
     margin-bottom: 1rem;
   }
+
+  #morning-coffee-marketing, #Ntl-Park-App, #GoT {
+    pointer-events: none;
+  }
 }
 
 @media only screen and (max-width: 550px) {
 
+  .no-gutters {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mb-3 {
+    height: auto;
+  }
+
+  .col-md-4 {
+    width: 50%;
+    height: 100%;
+  }
+
+  .launch-btn {
+    display: none;
+  }
+
+  .card-img {
+    height: 100%;
+  }
+
+  #morning-coffee-marketing, #Ntl-Park-App, #GoT {
+    cursor: pointer;
+    pointer-events: all;
+  }
 }
