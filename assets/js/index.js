@@ -12,10 +12,22 @@ $('#Ntl-Park-App').on('click', function() {
   window.open('https://khemsoth.github.io/NationalParkApp/');
 });
 
+$('#Ntl-Park-App-btn').on('click', function() {
+  window.open('https://khemsoth.github.io/NationalParkApp/');
+});
+
 $('#morning-coffee-marketing').on('click', function() {
   window.open('https://morningcoffeemarketing.herokuapp.com/');
 });
 
+$('#morning-coffee-marketing-btn').on('click', function() {
+  window.open('https://morningcoffeemarketing.herokuapp.com/');
+});
+
 $('#GoT').on('click', function() {
+  window.open('https://gotswag.herokuapp.com/');
+});
+
+$('#GoT-btn').on('click', function() {
   window.open('https://gotswag.herokuapp.com/');
 });

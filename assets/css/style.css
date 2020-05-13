@@ -70,6 +70,24 @@ hr {
     left: 50%;
   }
 
+.btn-outline-secondary:hover {
+  background: #8c8a88;
+}
+
+.page-nav:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: #604450;
+}
+
+.contact-form {
+  margin-top: 15rem;
+}
+
+#morning-coffee-marketing, #Ntl-Park-App, #GoT {
+  cursor: pointer;
+}
+
 #nav-list {
   list-style-type: none;
 }
@@ -82,19 +100,7 @@ hr {
   font-style: italic;
 }
 
-.btn-outline-secondary:hover {
-  background: #8c8a88;
-}
 
-.page-nav:hover {
-  font-style: italic;
-  text-decoration: none;
-  color: #604450;
-}
-
-#morning-coffee-marketing, #Ntl-Park-App, #GoT {
-  cursor: pointer;
-}
 
 @media only screen and (max-width: 900px) {
 
