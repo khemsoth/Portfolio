@@ -24,10 +24,10 @@ $('#morning-coffee-marketing-btn').on('click', function() {
   window.open('https://morningcoffeemarketing.herokuapp.com/');
 });
 
-$('#GoT').on('click', function() {
-  window.open('https://gotswag.herokuapp.com/');
+$('#fcs').on('click', function() {
+  window.open('https://fantastic-concrete-solutions.herokuapp.com/');
 });
 
-$('#GoT-btn').on('click', function() {
-  window.open('https://gotswag.herokuapp.com/');
+$('#fcs-btn').on('click', function() {
+  window.open('https://fantastic-concrete-solutions.herokuapp.com/');
 });
