@@ -31,3 +31,11 @@ $('#fcs').on('click', function() {
 $('#fcs-btn').on('click', function() {
   window.open('https://fantastic-concrete-solutions.herokuapp.com/');
 });
+
+$('#Fuel-Calc').on('click', function() {
+  window.open('https://flag-to-flag-fuel.netlify.app');
+});
+
+$('#Fuel-Calc-btn').on('click', function() {
+  window.open('https://flag-to-flag-fuel.netlify.app');
+});

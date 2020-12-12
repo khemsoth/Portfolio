@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 hr {
@@ -198,6 +198,7 @@ hr {
 
   .col-md-4 {
     width: auto;
+    height: 33vh;
   }
 
   .col-md-8 {
