@@ -8,12 +8,12 @@ $('nav').find('a').click(function(event) {
 
 
 //  Opening apps in new window
-$('#Ntl-Park-App').on('click', function() {
-  window.open('https://khemsoth.github.io/NationalParkApp/');
+$('#to-do-list').on('click', function() {
+  window.open('https://jot-a-note.netlify.app/');
 });
 
-$('#Ntl-Park-App-btn').on('click', function() {
-  window.open('https://khemsoth.github.io/NationalParkApp/');
+$('#to-do-list-btn').on('click', function() {
+  window.open('https://jot-a-note.netlify.app/');
 });
 
 $('#morning-coffee-marketing').on('click', function() {
